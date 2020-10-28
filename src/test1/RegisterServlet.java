@@ -21,6 +21,7 @@ public class RegisterServlet extends HttpServlet {
 		//在控制台打印输出注册信息
 		System.out.println("name="+name+"; password="+password+"; age="+sage);
 		System.out.println("对RegisterServlet.java进行了修改");
+                System.out.println("对RegisterServlet.java进行了第二次修改");
 	}
 
 }
