@@ -20,6 +20,7 @@ public class RegisterServlet extends HttpServlet {
 		String sage = request.getParameter("age");
 		//在控制台打印输出注册信息
 		System.out.println("name="+name+"; password="+password+"; age="+sage);
+		System.out.println("对RegisterServlet.java进行了修改");
 	}
 
 }
